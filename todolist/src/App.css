@@ -1,53 +1,60 @@
 .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .create_form input {
-    width: 300px;
-    padding: 10px;
-    border-bottom: 2px solid;
-    outline: none;
-    margin-bottom: 20px;
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+  margin-bottom: 20px;
 }
 
 .create_form button {
-    padding: 10px;
-    background-color: black;
-    color: white;
-    cursor: pointer;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }
 
 .task {
-    display: flex;
-    align-items: center;
-    width: 345px;
-    justify-content: space-between;
-    background-color: black;
-    color: white;
-    height: 35px;
-    padding: 2px 5px;
-    margin-top: 2px;
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px;
+  margin-top: 2px;
 }
 
 .checkbox {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 .checkbox .icon {
-    margin-right: 5px;
-    font-size: 15px;
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.checkbox:hover {
+  color: green;
 }
 
 .done {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 .task div span {
-    margin:  0 5px 0 4px;
+  margin: 0 5px 0 4px;
 }
 
-.task div .icone {
-    cursor: pointer;}
+.delete .icon:hover {
+  color: #c70000;
+  cursor: pointer;
+}
